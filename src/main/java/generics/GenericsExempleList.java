@@ -14,6 +14,9 @@ public class GenericsExempleList {
 		List<String> listaGenerics = new ArrayList<>();
 		listaGenerics.add("Elemento 1");
 		listaGenerics.add("Elemento 2");
+		listaGenerics.add("Elemento 3");
+		listaGenerics.add("Elemento 4");
+
 
 		// Iterando sobre a lista com Generics
 		for (String elemento : listaGenerics) {
