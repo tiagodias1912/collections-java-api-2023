@@ -15,12 +15,12 @@ public class ListaTarefa {
         }
     public void removerTarefa(String descricao){
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
-        for(Tarefa t : ListaTarefa){
+        for(Tarefa t : tarefasParaRemover){
             if(t.getDescricao().equalsIgnoreCase(descricao)) {
             tarefasParaRemover.add(t);
             }
         }
-        ListaTarefa.removeAll(tarefasParaRemover);
+        tarefasParaRemover.removeAll(tarefasParaRemover);
     }
     public int obterNumeroTotalTarefas(){
         return ListaTarefa.size();
