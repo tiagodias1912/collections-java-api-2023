@@ -50,8 +50,8 @@ public class ConjuntoConvidados {
     System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidado(s) dentro do Set de Convidados");
 
     // Adicionando convidados ao conjunto
-    conjuntoConvidados.adicionarConvidado("Alice", 1234);
-    conjuntoConvidados.adicionarConvidado("Bob", 1235);
+    conjuntoConvidados.adicionarConvidado("Tiago", 1234);
+    conjuntoConvidados.adicionarConvidado("Alice", 1235);
     conjuntoConvidados.adicionarConvidado("Charlie", 1235);
     conjuntoConvidados.adicionarConvidado("David", 1236);
 
